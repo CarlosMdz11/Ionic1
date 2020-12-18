@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
-    StatusBar,
+    StatusBar, 
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
